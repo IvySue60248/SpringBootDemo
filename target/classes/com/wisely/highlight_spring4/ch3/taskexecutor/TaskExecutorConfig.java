@@ -9,6 +9,11 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import java.util.concurrent.Executor;
 
+/**
+ * @EnableAsync开启异步任务支持
+ * 实现了AsyncConfigure接口并重写getAsyncExecutor方法，并返回一个ThreadPoolTaskExecutor，
+ * 这样就获得了一个基于线程池的TaskExecutor
+ */
 @Configuration
 @ComponentScan("com.wisely.highlight_spring4.ch3.taskexecutor")
 @EnableAsync

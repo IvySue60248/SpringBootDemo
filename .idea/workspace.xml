@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebb80fd7-2b39-4654-b72e-dc91c24b6c4a" name="Default Changelist" comment="add java config">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/AsyncTaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/TaskExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/DemoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/WiselyConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/ConditionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/LinuxCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/LinuxListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/ListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/WindowsCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/WindowsListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/DemoBeanIntegrationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/TestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskscheduler/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskscheduler/ScheduledTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskscheduler/TaskSchedulerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wisely/highlight_spring4/ch3/taskexecutor/AsyncTaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wisely/highlight_spring4/ch3/taskexecutor/AsyncTaskService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wisely/highlight_spring4/ch3/taskexecutor/AsyncTaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wisely/highlight_spring4/ch3/taskexecutor/AsyncTaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wisely/highlight_spring4/ch3/taskexecutor/TaskExecutorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wisely/highlight_spring4/ch3/taskexecutor/TaskExecutorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wisely/highlight_spring4/ch3/taskexecutor/TaskExecutorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wisely/highlight_spring4/ch3/taskexecutor/TaskExecutorConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,106 +37,95 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/event/DemoListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/event/DemoPublisher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/event/EventConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/event/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/AwareService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/TaskExecutorConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/AsyncTaskService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/WiselyConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/DemoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding>
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/DemoConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/TestBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/TestConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/DemoBeanIntegrationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="289">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/AwareConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="85">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,10 +143,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/Main.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="170">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -147,6 +156,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Class" />
       </list>
@@ -158,15 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/di/FunctionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/di/UseFunctionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/di/DiConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/di/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/FunctionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/UserFunctionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/UseFunctionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/JavaConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/aop/Action.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/aop/DemoAnnotationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/aop/AopConfig.java" />
@@ -182,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/el/DemoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/el/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/el/ELConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/prepost/JSR250WayService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/prepost/PrePostConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/prepost/Main.java" />
@@ -198,9 +198,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/AwareConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/AwareService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/TaskExecutorConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/AsyncTaskService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskscheduler/TaskSchedulerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskscheduler/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskscheduler/ScheduledTaskService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/WindowsCondition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/LinuxCondition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/ListService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/WindowsListService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/LinuxListService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/ConditionConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/WiselyConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/DemoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/DemoConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/TestBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/TestConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/DemoBeanIntegrationTests.java" />
       </list>
     </option>
   </component>
@@ -278,7 +296,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="highlight_spring4" type="462c0819:PsiDirectoryNode" />
               <item name="ch3" type="462c0819:PsiDirectoryNode" />
-              <item name="taskexecutor" type="462c0819:PsiDirectoryNode" />
+              <item name="aware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="highlig_spring4_idea" type="b2602c69:ProjectViewProjectNode" />
+              <item name="highlig_spring4_idea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="highlight_spring4" type="462c0819:PsiDirectoryNode" />
+              <item name="ch3" type="462c0819:PsiDirectoryNode" />
+              <item name="fortest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="highlig_spring4_idea" type="b2602c69:ProjectViewProjectNode" />
@@ -292,7 +320,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546606198199" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546611888395" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch2/el" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
@@ -314,39 +342,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wisely.highlight_spring4.ch2.event.Main" />
+  <component name="RunManager" selected="JUnit.DemoBeanIntegrationTests">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wisely.highlight_spring4.ch3.taskscheduler.Main" />
       <module name="highlig_spring4_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wisely.highlight_spring4.ch2.event.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wisely.highlight_spring4.ch3.aware.Main" />
-      <module name="highlig_spring4_idea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wisely.highlight_spring4.ch3.aware.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wisely.highlight_spring4.ch3.taskexecutor.Main" />
-      <module name="highlig_spring4_idea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wisely.highlight_spring4.ch3.taskexecutor.*" />
+          <option name="PATTERN" value="com.wisely.highlight_spring4.ch3.taskscheduler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,11 +357,11 @@
       </method>
     </configuration>
     <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wisely.highlight_spring4.ch2.prepost.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.wisely.highlight_spring4.ch3.conditional.Main" />
       <module name="highlig_spring4_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wisely.highlight_spring4.ch2.prepost.*" />
+          <option name="PATTERN" value="com.wisely.highlight_spring4.ch3.conditional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,11 +370,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wisely.highlight_spring4.ch2.profile.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.wisely.highlight_spring4.ch3.annotation.Main" />
       <module name="highlig_spring4_idea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wisely.highlight_spring4.ch2.profile.*" />
+          <option name="PATTERN" value="com.wisely.highlight_spring4.ch3.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -380,13 +382,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoBeanIntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="highlig_spring4_idea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wisely.highlight_spring4.ch3.fortest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wisely.highlight_spring4.ch3.fortest" />
+      <option name="MAIN_CLASS_NAME" value="com.wisely.highlight_spring4.ch3.fortest.DemoBeanIntegrationTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoBeanIntegrationTests.prodBeanShouldInject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="highlig_spring4_idea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wisely.highlight_spring4.ch3.fortest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wisely.highlight_spring4.ch3.fortest" />
+      <option name="MAIN_CLASS_NAME" value="com.wisely.highlight_spring4.ch3.fortest.DemoBeanIntegrationTests" />
+      <option name="METHOD_NAME" value="prodBeanShouldInject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.DemoBeanIntegrationTests" />
+        <item itemvalue="JUnit.DemoBeanIntegrationTests.prodBeanShouldInject" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -412,15 +444,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17095116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3301887" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3301887" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,96 +472,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add java config" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/di/FunctionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/di/UseFunctionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/di/DiConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/di/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/FunctionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/UseFunctionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/JavaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/javaconfig/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/aop/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch1/aop/DemoAnnotationService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -647,13 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
@@ -792,16 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/AwareConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -826,36 +751,232 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/TaskExecutorConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="-8">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/AsyncTaskService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="119">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskexecutor/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskscheduler/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskscheduler/TaskSchedulerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/taskscheduler/ScheduledTaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/WindowsCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/ListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/WindowsListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/LinuxListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/LinuxCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="87" selection-start-line="9" selection-start-column="87" selection-end-line="9" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/conditional/ConditionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/aware/AwareConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/WiselyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/DemoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/annotation/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_spring4/ch3/fortest/DemoBeanIntegrationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
