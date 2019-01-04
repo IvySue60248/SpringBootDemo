@@ -9,6 +9,10 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 
+/**
+ * 实现BeanNameAware/ResourceLoaderAware接口，获得Bean的名称和资源加载的服务
+ * 需要重新setResourceLoader和setBeanName
+ */
 @Service
 public class AwareService implements BeanNameAware, ResourceLoaderAware {
 
